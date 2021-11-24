@@ -1,0 +1,27 @@
+POST http://localhost:3000/task-scheduler
+Content-Type: application/json
+
+{
+  "description": "Luiz Henrique",
+  "seconds": 200
+}
+###
+
+PATCH http://localhost:3000/task-scheduler/2
+Content-Type: application/json
+
+{
+  "description": "Maria Clara",
+  "seconds": 200
+}
+###
+
+GET  http://localhost:3000/task-scheduler
+Content-Type: application/json
+
+###
+
+DELETE  http://localhost:3000/task-scheduler/2
+Content-Type: application/json
+
+###
